@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Pancong Goes to Asrama - Telkom University</title>
+		<script src="jquery.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#link_pesan").click(function() {
+					$("#pesan").slideToggle("slow");
+				});
+				$("#link_about").click(function() {
+					$("#about").slideToggle("slow");
+				});
+			});
+		</script>
+		<script>
+			
+		</script>
+		<style>
+			a:link {
+				text-decoration: none;
+				}
+			a:visited {
+				text-decoration: none;
+				}
+			body {
+				background-color: #66ff33;
+				}
+			#web {
+				box-sizing: border-box;
+				border-radius: 8px;
+				background-color:white;
+				border-style: solid;
+				border-width: 2px;
+				margin: 25px;
+				}
+			#link_about,#link_pesan {
+				background-color: green;
+				}
+			#footer {
+				border-top-style: solid;
+			}
+			#about {
+				padding:3px;
+				padding-left:10px;
+				display: none;
+				}
+			#pesan {
+				display: none;
+				}
+			img {
+				border-radius: 8px;
+				}
+		</style>
+		
+	</head>
+	<body>
+		<div id="web">
+			<div id="header">
+				<h1 align="center" id="judul"><a href="index.html">Pancong Goes to Asrama - Telkom University</a></h1>
+				<p align="center"><img src="header.png" width="250" height="200"></p>
+			</div>
+			<div id="link_about">
+				<font color="white"><b><font size="5"><p align="center">ABOUT</p></font></b></font>
+			</div>
+			<div id="about">
+				<p>PGA (Pancong Goes to Asrama) adalah sebuah layanan delivery kue pancong yang ditujukan untuk mahasiswa Telkom University yang saat ini sedang menetap di asrama. 
+				</p>
+				<p>
+				Untuk pemesanan cukup mudah, silahkan klik "PESAN" yang berada di bawah ini.
+				</p>
+				<p>Ayo ayo dipesan, tidak ada kata sulit untuk menikmati kue pancong yang hangat ini!
+				<p>
+					PGA? Pancong Goes to Asrama!</p>
+					<p>PGA? Siap melayani anda!</p>
+					<p>PGA? Membuat pencarian pancong anda menjadi mudah!</p>
+					<p>=)</p>
+			</div>
+			<div id="link_pesan">
+				<font color="white"><p align="center"><font size="5"><b>PESAN</b></font></p></font>
+			</div>
+			<div id="pesan"><p align="center">
+				<iframe src="https://docs.google.com/forms/d/1JzOlm0StgTjCXHKxP9XFCEMWsFOj0AEmbg8fbdWaJ6Q/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			</p>
+			</div>
+			<div id="footer"><p align="center">Copyright &copy; 2016 - <a href="http://msatrio.wordpress.com/">Muhammad Satrio Wicaksono</a></p></div>
+		</div>
+	</body>
+</html>
